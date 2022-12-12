@@ -3,9 +3,9 @@ package svc
 import (
 	"fmt"
 
-	"github.com/flyskea/lightalk-user-rpc/model"
-	"github.com/flyskea/lightalk-user-rpc/model/ent"
-	"github.com/flyskea/lightalk-user-rpc/rpc/internal/config"
+	"github.com/flyskea/lightalk-user/model"
+	"github.com/flyskea/lightalk-user/model/ent"
+	"github.com/flyskea/lightalk-user/rpc/internal/config"
 )
 
 type ServiceContext struct {

@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/flyskea/lightalk-user-rpc/model/ent"
+	"github.com/flyskea/lightalk-user/model/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/user"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/userinfo"
+	"github.com/flyskea/lightalk-user/model/ent/user"
+	"github.com/flyskea/lightalk-user/model/ent/userinfo"
 )
 
 // ent aliases to avoid import conflicts in user's code.

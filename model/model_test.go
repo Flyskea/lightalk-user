@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/flyskea/lightalk-user-rpc/model/ent"
+	"github.com/flyskea/lightalk-user/model/ent"
 	_ "github.com/go-sql-driver/mysql"
 )
 

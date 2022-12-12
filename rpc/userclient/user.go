@@ -6,7 +6,7 @@ package userclient
 import (
 	"context"
 
-	"github.com/flyskea/lightalk-user-rpc/rpc/user"
+	"github.com/flyskea/lightalk-user/rpc/user"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

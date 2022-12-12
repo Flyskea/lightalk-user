@@ -10,7 +10,7 @@ import (
 
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/userinfo"
+	"github.com/flyskea/lightalk-user/model/ent/userinfo"
 )
 
 // UserInfoCreate is the builder for creating a UserInfo entity.

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/user"
+	"github.com/flyskea/lightalk-user/model/ent/user"
 )
 
 // User is the model entity for the User schema.

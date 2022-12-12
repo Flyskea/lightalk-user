@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"github.com/flyskea/lightalk-user-rpc/rpc/internal/svc"
-	"github.com/flyskea/lightalk-user-rpc/rpc/user"
+	"github.com/flyskea/lightalk-user/rpc/internal/svc"
+	"github.com/flyskea/lightalk-user/rpc/user"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

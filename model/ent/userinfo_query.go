@@ -10,8 +10,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/predicate"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/userinfo"
+	"github.com/flyskea/lightalk-user/model/ent/predicate"
+	"github.com/flyskea/lightalk-user/model/ent/userinfo"
 )
 
 // UserInfoQuery is the builder for querying UserInfo entities.

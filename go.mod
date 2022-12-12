@@ -1,4 +1,4 @@
-module github.com/flyskea/lightalk-user-rpc
+module github.com/flyskea/lightalk-user
 
 go 1.19
 

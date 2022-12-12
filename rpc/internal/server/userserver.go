@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"github.com/flyskea/lightalk-user-rpc/rpc/internal/logic"
-	"github.com/flyskea/lightalk-user-rpc/rpc/internal/svc"
-	"github.com/flyskea/lightalk-user-rpc/rpc/user"
+	"github.com/flyskea/lightalk-user/rpc/internal/logic"
+	"github.com/flyskea/lightalk-user/rpc/internal/svc"
+	"github.com/flyskea/lightalk-user/rpc/user"
 )
 
 type UserServer struct {

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flyskea/lightalk-user-rpc/model/ent/predicate"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/user"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/userinfo"
+	"github.com/flyskea/lightalk-user/model/ent/predicate"
+	"github.com/flyskea/lightalk-user/model/ent/user"
+	"github.com/flyskea/lightalk-user/model/ent/userinfo"
 
 	"entgo.io/ent"
 )

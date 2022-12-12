@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"github.com/flyskea/lightalk-user-rpc/model/ent"
+	"github.com/flyskea/lightalk-user/model/ent"
 	// required by schema hooks.
-	_ "github.com/flyskea/lightalk-user-rpc/model/ent/runtime"
+	_ "github.com/flyskea/lightalk-user/model/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/migrate"
+	"github.com/flyskea/lightalk-user/model/ent/migrate"
 )
 
 type (

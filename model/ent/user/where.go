@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/predicate"
+	"github.com/flyskea/lightalk-user/model/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

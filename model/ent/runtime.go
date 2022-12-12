@@ -5,9 +5,9 @@ package ent
 import (
 	"time"
 
-	"github.com/flyskea/lightalk-user-rpc/model/ent/schema"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/user"
-	"github.com/flyskea/lightalk-user-rpc/model/ent/userinfo"
+	"github.com/flyskea/lightalk-user/model/ent/schema"
+	"github.com/flyskea/lightalk-user/model/ent/user"
+	"github.com/flyskea/lightalk-user/model/ent/userinfo"
 )
 
 // The init function reads all schema descriptors with runtime code
