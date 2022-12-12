@@ -4,6 +4,8 @@ go 1.19
 
 require (
 	entgo.io/ent v0.11.4
+	github.com/caarlos0/env/v6 v6.10.1
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/zeromicro/go-zero v1.4.2
 	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
@@ -14,7 +16,6 @@ require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/caarlos0/env/v6 v6.10.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect

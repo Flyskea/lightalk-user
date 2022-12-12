@@ -3,9 +3,9 @@ package svc
 import (
 	"fmt"
 
-	"github.com/flyskea/lightalk-user-rpc/internal/config"
 	"github.com/flyskea/lightalk-user-rpc/model"
 	"github.com/flyskea/lightalk-user-rpc/model/ent"
+	"github.com/flyskea/lightalk-user-rpc/rpc/internal/config"
 )
 
 type ServiceContext struct {
@@ -14,8 +14,8 @@ type ServiceContext struct {
 	Ent *ent.Client
 }
 
-func NewServiceContext(c config.Config) *ServiceContext {
-	dbInfo := c.DBInfo
+func NewServiceContext(c config.Config, cfg config.ConfigEnv) *ServiceContext {
+	dbInfo := cfg.DBInfo
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=True",
 		dbInfo.User, dbInfo.Password, dbInfo.IP, dbInfo.Port, dbInfo.DatabaseName)
 	return &ServiceContext{

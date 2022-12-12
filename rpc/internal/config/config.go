@@ -12,6 +12,8 @@ type DBInfo struct {
 
 type Config struct {
 	zrpc.RpcServerConf
+}
 
+type ConfigEnv struct {
 	DBInfo *DBInfo
 }
